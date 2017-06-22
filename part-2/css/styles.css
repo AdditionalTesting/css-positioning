@@ -17,13 +17,43 @@ body {
 
 img {
   max-width: 100%;
+  margin: 10px;
 }
 
 figure {
   margin: 0;
+  float: left;
+  width: 50%;
 }
 
 .film {
+  clear: both;
   width: 50%;
+  float: left;
   margin: 40px auto;
+}
+
+.action-like {
+    float: right;
+    color: red;
+    position: relative;
+    top: 100px;
+}
+
+.film-details {
+    position: relative;
+    left: 20px;
+    top: 200;
+}
+
+.action-watch-later {
+    position: relative;
+    left: 90%;
+    bottom: 575px;
+    color: red;
+    font-size: 1.5em;
+}
+
+p.film-description {
+    font-size: 1.5em;
 }
